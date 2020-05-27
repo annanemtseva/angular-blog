@@ -6,7 +6,7 @@
   --primary-color: #dc3545;
   --dark-color: #333333;
   --light-color: #f4f4f4;
-  --danger-color: #dc3545;
+  --danger-color: #ff3d00;
   --success-color: #28a745;
 }
 
@@ -46,7 +46,7 @@ img {
   max-width: 1100px;
   margin: auto;
   overflow: hidden;
-  padding: 0 2rem;
+  padding: 0 1rem;
 }
 
 .text-primary {
@@ -75,9 +75,7 @@ img {
   margin: 0.7rem 0;
 
   &-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    text-align: center;
   }
 
   &-content {
@@ -95,7 +93,7 @@ img {
 
 .btn {
   display: inline-block;
-  background: var(--light-color);
+  //background: var(--light-color);
   color: #333;
   padding: 0.4rem 1.3rem;
   font-size: 1rem;
@@ -104,6 +102,7 @@ img {
   margin-right: 0.5rem;
   transition: opacity 0.2s ease-in;
   outline: none;
+  border-radius: 10px;
 
   &:disabled {
     cursor: not-allowed;

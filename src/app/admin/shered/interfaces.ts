@@ -10,7 +10,7 @@ export interface FbAuthResponse {
 }
 
 export interface Post {
-  id?: number;
+  id?: string;
   title: string;
   author: string;
   text: string;
